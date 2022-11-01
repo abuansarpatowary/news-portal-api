@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>News Portal Website with API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"> -->
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+    <header class="header-area py-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                  <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                  </div>
+                  <div class="menu-right d-flex">
+                      <li><a href="#">News</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#"><img src="img/avatar.png" alt=""></a></li>
+                  </div>
+            </div>
+        </div>
+    </header>
+    <div class="news-category-menu">
+        <div class="container">
+          <hr class="m-0">
+            <div class="row">
+                <div class="col-12">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                      <ul class="navbar-nav news-categories-nav">
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- news-area-start -->
+    <!-- category-count-area -->
+    <section class="category-count">
+      <div class="container">
+        <div class="category-count-container bg-white">
+            <div class="category-count-text"><p>4 items found for category Entertainment</p></div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- category-count-area -->
+    <section class="news-area">
+        <div class="container">
+        </div>
+    </section>
+    <!-- news-area-end -->
+
+    <!-- footer-area-start -->
+    <footer class="footer-area bg-white mt-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="copyright-text">
+            <p>
+              Copyright
+              <span id="copyright">
+                  <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+              </span>
+              News Portal
+          </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script> -->
+
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
